@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Message</title>
+	<link rel="stylesheet" type="text/css" href="css/message.css">
+</head>
+<body>
+	<header>
+		<h1>This is the last page</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About me</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="skills.html">Programming skills</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<form action="" method="get">
+			<fieldset>
+				<legend>Feedback</legend>
+
+				<div>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name" />
+				</div>
+				<br>
+				<div>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email" />
+				</div>
+				<br>
+				<div>
+					<label for="feedback">Opinion:</label>
+					<select name="feedback" id="feedback">
+						<option value="1">I like the page</option>
+						<option value="2">I do NOT like the page</option>
+						<option value="3">I have no opinion</option>
+					</select>
+				</div>
+				<div>
+					<label for="message">Message:</label>
+					<br>
+					<textarea id="message" rows="4" cols="50" placeholder="Enter your message here..."></textarea>
+				</div>
+
+				<div>
+					<button type="submit">Send message</button>
+				</div>
+
+			</fieldset>
+		</form>
+	</main>
+</body>
+</html>
